@@ -1,4 +1,5 @@
-// LeetCode: Remove Element
+// LeetCode - Remove Element
+// https://leetcode.com/problems/remove-element/
 
 var removeElement = function(nums, val) {
     let k = 0;
@@ -12,3 +13,5 @@ var removeElement = function(nums, val) {
 
     return k;
 };
+
+module.exports = removeElement;
